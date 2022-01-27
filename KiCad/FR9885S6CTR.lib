@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model FR9885S6CTR
+#/7007545/645326/2.49/6/3/Power Supply
+DEF FR9885S6CTR PS 0 30 Y Y 1 F N
+F0 "PS" 950 300 50 H V L CNN
+F1 "FR9885S6CTR" 950 200 50 H V L CNN
+F2 "SOT95P280X145-6N" 950 100 50 H I L CNN
+F3 "https://datasheet.lcsc.com/szlcsc/1809201926_Fitipower-Integrated-Tech-FR9885S6CTR_C172767.pdf" 950 0 50 H I L CNN
+F4 "DC-DC Converters Step-Down Adjustable 1 4.5V 18V 0.6V 18V 2A SOT-23-6 RoHS" 950 -100 50 H I L CNN "Description"
+F5 "1.45" 950 -200 50 H I L CNN "Height"
+F6 "Fitipower Integrated Tech" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "FR9885S6CTR" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X BST 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X FB 3 0 -200 200 R 50 50 0 0 P
+X LX 6 1100 0 200 L 50 50 0 0 P
+X VIN 5 1100 -100 200 L 50 50 0 0 P
+X ~SHDN 4 1100 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
